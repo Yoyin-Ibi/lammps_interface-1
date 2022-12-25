@@ -21,7 +21,7 @@ setup(
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     license="MIT",
-    url="https://github.com/peteboyd/lammps_interface",
+    url="https://github.com/Yoyin-Ibi/lammps_interface-1",
     description="Automatic generation of LAMMPS input files for molecular dynamics simulations of MOFs",
     long_description=open('README.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
