@@ -343,7 +343,7 @@ class MolecularGraph(nx.Graph):
                 tempsf = 0.80
             if(set(["C","H"]) <= elements):
                 tempsf = 0.80
-            if dist*tempsf < rad and not (alkali & elements):
+            if dist*tempsf < rad:
 
                 flag = self.compute_bond_image_flag(n1, n2, cell)
                 self.sorted_edge_dict.update({(n1,n2): (n1, n2), (n2, n1):(n1, n2)})
